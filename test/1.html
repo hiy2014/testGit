@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>jQuery UI 进度条（Progressbar） - 默认功能</title>
+    <link rel="stylesheet" href="../jquery-ui.css">
+    <script src="../external/jquery/jquery.js"></script>
+    <script src="../jquery-ui.min.js"></script>
+
+    <script>
+        $(function() {
+            $( "#progressbar" ).progressbar({
+                value: 35
+            });
+
+            console.log($("#progressbar").progressbar("widget").html())
+        });
+    </script>
+</head>
+<body>
+
+<div id="progressbar"></div>
+
+
+</body>
+</html>			
